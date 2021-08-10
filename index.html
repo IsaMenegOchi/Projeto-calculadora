@@ -55,27 +55,26 @@
         </section>
         <section class="calculadora">
 
-            <form>
+            <form id="formulario">
                 <div class="campo">
                     <label for="">Nome:</label>
-                    <input type="text" >
+                    <input type="text" id="nome">
                 </div>
                 
                 <div class="campo unidade" data-unidade="Metros">
                     <!-- data = atribuitos -->
                     <label for="">Altura:</label>
-                    <input type="number">
+                    <input type="text" id="altura">
                 </div>
                 
                 <div class="campo unidade" data-unidade="Quilos"> 
                     <label for="">Peso:</label>
-                    <input type="number">
+                    <input type="text" id="peso">
                 </div>
             
-                <button type="button">CALCULAR</button>
+                <button type="button" id="calcular">CALCULAR</button>
 
-                <div id="resultado">
-                </div>
+                <div id="resultado"></div>
 
             </form>
 
