@@ -108,7 +108,7 @@ section{
 }
 
 .calculadora #resultado{
-    height: 100px;
+    min-height: 100px;
     background-color: var(--cor-destaque);
     border-radius: 5px;
     padding: 10px;
