@@ -76,6 +76,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    width: 250px;
 }
 
 .calculadora label{
@@ -116,11 +117,7 @@ section{
     font-style: italic;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-weight: lighter;
-    overflow: hidden; 
-    resize: none;
     box-shadow: 0px 2px 4px #FFFFFF88;
-    min-width:200px;
 }
 .calculadora .campo .unidade::before{
     content: attr(data-unidade);
