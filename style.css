@@ -120,7 +120,7 @@ section{
     overflow: hidden; 
     resize: none;
     box-shadow: 0px 2px 4px #FFFFFF88;
-    width: 200px;
+    min-width:200px;
 }
 .calculadora .campo .unidade::before{
     content: attr(data-unidade);

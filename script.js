@@ -1,4 +1,11 @@
 const nome = document.getElementById("nome");
+ // mais rápido
+
+//poderiamos trocar o elemntid por querySelector 
+    //com # chama o primeiro id com aquele nome
+        //com ponto ele chama classe
+            // podemos colocar o tipo de tag ou type do 
+            // mais flexivel
 const peso = document.getElementById("peso");
 const altura = document.getElementById("altura");
 let imc = 0;
@@ -9,7 +16,7 @@ const calcular = document.getElementById("calcular");
 
 
 function calculando() {
-    if(peso.value !== "" && altura.value !== ""){
+    if(nome.value !== "" && peso.value !== "" && altura.value !== ""){
         imc = parseFloat(peso.value.replace(',', '.')) / parseFloat(altura.value.replace(',', '.')*2); 
     
         //conversão de string para número
@@ -39,3 +46,7 @@ function calculando() {
 }
 
 calcular.addEventListener("click", calculando)
+// callback funçãoq ue esta sendo passado por um argumento outra função
+//argumento - o que a função recebe
+//paremetro - o que função vai receber
+
